@@ -1,0 +1,269 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game of mix</title>
+    <link rel="stylesheet" href="{% static 'game/css/game of mix.css' %}">
+    <link rel="stylesheet" href="{% static 'game/css/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'game/css/fontawesome.min.css' %}">
+    
+</head>
+<body>
+    <div id="backpage">
+      <a href="{% url 'home' %}">
+        <i class="fa-solid fa-circle-left"></i>
+
+    </a>
+    
+    </div>
+    <div class="home-back" dir="rtl">
+      <a href="{% url 'home' %}">
+        <i class="fa-solid fa-house"></i>
+  
+    </a>
+    </div>
+<section class="number">
+  <h1>{{total}}</h1>
+  <form method = 'POST' action="{% url 'game' %}">
+    {% csrf_token %}
+   <article>
+    <table>  
+      <thead>
+  
+          <tr>
+            <td>1</td>
+            <td>3</td>
+            <td>5</td>
+            <td>7</td>
+  
+          </tr>
+          
+          <tr>
+            <td>9</td>
+            <td>11</td>
+            <td>13</td>
+            <td>15</td>
+  
+          </tr>
+  
+          
+          <tr>
+            <td>17</td>
+            <td>19</td>
+            <td>21</td>
+            <td>23</td>
+  
+          </tr>
+  
+          
+          <tr>
+            <td>25</td>
+            <td>27</td>
+            <td>29</td>
+            <td>31</td>
+  
+          </tr>
+        </thead>
+      </table>
+      
+        <input type="checkbox" name="first_checkbox" value="1">
+
+   </article>
+
+   
+
+   
+   <article>
+     <table>  
+      <thead>
+  
+          <tr>
+            <td>2</td>
+            <td>3</td>
+            <td>6</td>
+            <td>7</td>
+  
+          </tr>
+          
+          <tr>
+            <td>10</td>
+            <td>11</td>
+            <td>14</td>
+            <td>15</td>
+  
+          </tr>
+  
+          
+          <tr>
+            <td>18</td>
+            <td>19</td>
+            <td>22</td>
+            <td>23</td>
+  
+          </tr>
+  
+          
+          <tr>
+            <td>26</td>
+            <td>27</td>
+            <td>30</td>
+            <td>31</td>
+  
+          </tr>
+        </thead>
+      </table>
+
+        <input type="checkbox" name="second_checkbox" value="2">
+
+     
+  </article> 
+
+  
+  <article>
+    <table>  
+      <thead>
+  
+          <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+  
+          </tr>
+          
+          <tr>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+  
+          </tr>
+  
+          
+          <tr>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+  
+          </tr>
+  
+          
+          <tr>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+  
+          </tr>
+        </thead>
+      </table>
+
+        <input type="checkbox" name="third_checkbox" value="4">
+
+     
+  </article> 
+  
+  
+  <article>
+    <table>  
+      <thead>
+  
+          <tr>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+  
+          </tr>
+          
+          <tr>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+  
+          </tr>
+  
+          
+          <tr>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+  
+          </tr>
+  
+          
+          <tr>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+  
+          </tr>
+        </thead>
+      </table>
+
+        <input type="checkbox" name="forth_checkbox" value="8">
+
+   
+  </article> 
+
+  
+  <div class="last-end"   >
+    <table >  
+    <thead>
+
+        <tr>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+
+        </tr>
+        
+        <tr>
+          <td>20</td>
+          <td>21</td>
+          <td>22</td>
+          <td>23</td>
+
+        </tr>
+
+        
+        <tr>
+          <td>24</td>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+
+        </tr>
+
+        
+        <tr>
+          <td>28</td>
+          <td>29</td>
+          <td>30</td>
+          <td>31</td>
+
+        </tr>
+      </thead>
+    </table>
+
+      <input type="checkbox" name="fifth_checkbox" value="16">
+
+  </div>
+
+    <br>
+    <center><input type="submit" value="اضغط"></center>
+
+</form>
+</section>
+
+
+</body>
+</html>

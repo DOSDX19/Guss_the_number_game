@@ -1,0 +1,462 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+body{
+
+background-image:url(../image/Preview\ and\ Download\ Wallpaper\ -\ HD\ Wallpapers\ -\ Desktop\ Background\ Images.png);
+background-size: cover ;
+font-family: sans-serif;
+
+
+
+}
+
+.page-game{
+
+
+width: 40%;
+height: 484px;
+margin: auto;
+margin-top: 224px;
+position: relative;
+/* background-color: white; */
+border-radius: 5px;
+
+}
+h1{
+
+    text-align: center;
+    font-size: 3.9em;
+    margin-top: 30px;
+    color: #5d6363;
+}
+
+.play{
+ 
+width: 50%;
+height: 100px;
+margin: auto;
+margin-top: 78px;
+}
+button{
+    margin: auto;
+    padding: 18px 86px;
+    font-size: 2.7em;
+    border-radius: 13px;
+    border: none;
+    background-color: #c7d8c6;
+    margin-left: 32px;
+}
+button a i{
+    font-size: 1.3em;
+}
+
+a{
+text-decoration: none;
+color: #5d6363c2;
+
+
+}
+button:hover{
+
+background-color: white;
+
+
+
+}
+.comment{
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    margin-top: 78px;
+
+}
+.comment button{
+    margin: auto;
+    padding: 20px 46px;
+    font-size: 2.7em;
+    border-radius: 13px;
+    border: none;
+    background-color: #c7d8c6;
+    margin-left: 32px;
+}
+
+.comment a{
+    text-decoration: none;
+    color: #5d6363c2;
+    
+    
+    }
+.comment button:hover{
+
+        background-color: white;
+        
+        
+        
+        }
+.number{
+
+width: 80%;
+height: 285vh;
+/* border: 1px solid red; */
+margin: auto;
+
+
+}
+
+article{
+    width:261px;
+    height: 264px;
+    /* border: 1px solid forestgreen; */
+    display: inline-block;
+    position: relative;
+    margin-left: 175px;
+    margin-bottom: 54px;
+    margin-top: 105px;
+
+}
+
+table:hover{
+    background-color: rgb(158, 235, 142);   
+}
+
+
+.check-q{
+font-family: sans-serif;
+width: 330px;
+height: 166px;
+margin-left: 23rem;
+margin-top: 64px;
+
+
+}
+
+
+
+input[type="number"]{
+
+
+    border: none;
+    outline: none;
+    margin-left: 17px;
+    text-align: center;
+    padding: 16px 4px;
+    font-size: 1.5em;
+    border-radius: 24px;
+}
+
+
+input[type="submit"]{
+
+    border: none;
+    outline: none;
+margin-left: 0px;
+    padding: 16px 29px;
+    margin-top: 42px;
+    font-size: 1.6em;
+    border-radius: 24px;
+    background-color: #c7d8c6;
+    color: #2c2e2d;
+}
+
+input[type="submit"]:hover{
+
+background-color: rgb(247, 242, 242);
+
+}
+article table thead tr td{
+
+    width: 6%;
+    height: 64px;
+    font-size: 1.9em;
+    text-align: center;
+    font-weight: 700;
+}
+
+article table  {
+    background-color: rgb(199 216 198);
+
+border-radius: 24px;
+}
+
+
+article a table thead tr td  {
+    color: #795548;
+    
+}
+
+article input[type="checkbox"]{
+    width: 7%;
+    height: 4em;
+    margin-left: 122px;
+
+}
+
+.last-end table thead tr td{
+
+    width: 6%;
+    height: 64px;
+    font-size: 1.9em;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.last-end{
+    width: 261px;
+    height: 264px;
+    /* border: 1px solid forestgreen; */
+    display: inline-block;
+    position: relative;
+    margin-left: 25em;
+    margin-bottom: 54px;
+    margin-top: 105px
+}
+.last-end table  {
+    background-color: rgb(199 216 198);
+    border-radius: 24px;
+    }
+
+
+.last-end a table thead tr td  {
+    color: #795548;
+}
+
+
+table:hover{
+    background-color: rgb(115 186 180);   
+}
+
+
+ input[type="checkbox"]{
+    width: 7%;
+    height: 4em;
+    margin-left: 26px;
+
+}
+
+.last-end input[type="checkbox"]{
+
+margin-left: 122px;
+
+}
+
+
+footer{
+    /* width: 100%; */
+    height: 11vh;
+    background-color: #868b85; 
+
+}
+
+footer h1 {
+padding: 18px;  
+font-size: 1.1em;
+
+
+}
+
+#backpage{
+
+
+width: 71px;
+
+
+}
+#backpage a i{
+    
+    
+    font-size: 3rem;
+    color: #dae1d9;
+    margin-left: 11px;
+    margin-top: 16px;
+    padding: 0 4px;
+    
+}
+.home-back { 
+
+    
+
+margin-left: 6em;
+
+margin-top: -69px;
+}
+
+.home-back a i{ 
+ 
+    font-size: 3rem;
+    color: #dae1d9;
+    margin-left: 11px;
+    margin-top: 16px;
+    padding: 0 4px;
+    
+margin-right: 8px;
+
+
+}
+
+.lern-game{
+
+margin: 5%;
+
+}
+.lern-game h2 {
+
+    text-align: center;
+    font-size: 2.5em;
+
+}
+
+.lern-game h3 {
+
+    text-align: right;
+    margin-top: 55px;
+    margin-bottom: 25px;
+    font-size: 1.4em;
+}
+.lern-game p{
+
+    line-height: 4rem;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.lern-game ol li {
+    line-height: 4rem;
+    font-size: 1.2em;
+    font-weight: 500;
+
+}
+
+@media(max-width:500px){
+    h1 {
+        text-align: center;
+        font-size: 3.9em;
+        margin-top: 30px;
+        color: #5d6363;
+        margin-left: -16px;
+    }
+    body{
+
+        background-image: url(../image/Preview\ and\ Download\ Wallpaper\ -\ HD\ Wallpapers\ -\ Desktop\ Background\ Images.png);
+        background-size: cover;
+        
+        height: -9vh;
+        font-family: sans-serif;
+    }
+
+    article{
+
+        width: 281px;
+        height: 239px;
+        /* border: 1px solid forestgreen; */
+        display: inline-block;
+        position: relative;
+        margin-left: 17px;
+        margin-bottom: 54px;
+        margin-top: 105px
+
+       
+    }
+    article input[type="checkbox"]{
+     width: 7%;
+    height: 4em;
+    margin-left: 133px;
+
+    }
+    .page-game{
+
+        
+        width: 81%;
+        height: 484px;
+        margin: auto;
+        margin-top: 224px;
+        position: relative;
+        /* background-color: white; */
+        border-radius: 5px; 
+        margin-left: 40px;
+
+    }
+    button{
+        padding: 5px 49px;
+    font-size: 2.5em;
+    border-radius: 13px;
+    border: none;
+    background-color: #c7d8c6;
+    margin-left: 14px;
+    margin-top: 19px;
+    }
+
+   .comment button{
+    padding: 5px 35px;
+    font-size: 2.5em;
+    border-radius: 13px;
+    border: none;
+    background-color: #c7d8c6;
+    margin-left: -7px;
+    margin-top: -36px;
+    }
+
+    .form{
+
+      margin-top: 30px;
+
+    }
+
+    .last-end{
+    margin: auto;
+    width: 285px;
+    margin-top: 83px;
+    margin-left: 1em;
+}
+    
+  
+    .last-end input[type="checkbox"]{
+    margin-left: 131px;
+
+    }
+    input[type="number"]{
+     padding: 12px 0px;
+    font-size: 1.5em;
+    width: 10em;
+    
+    }
+ input[type="submit"]{
+
+        margin-left: 73px;
+    
+}
+
+.check-q{
+
+    margin-left: 27px;  
+}
+
+input[type="number"]{
+
+    padding: 12px 0px;
+    font-size: 1.5em;
+
+}
+
+table:hover{
+
+    background-color: rgb(115 186 180);
+
+
+}
+#backpage a i{
+font-size: 3rem;
+    color: #dae1d9;
+    margin-left: 12px;
+    margin-top: 16px;
+    padding: 0 4px;
+
+}
+}
+
+
+
+

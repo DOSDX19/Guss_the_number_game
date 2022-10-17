@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="AR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'game/css/game of mix.css' %}">
+    <link rel="stylesheet" href="{% static 'game/css/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'game/css/fontawesome.min.css' %}">
+</head>
+<body>
+    
+        <div id="backpage">
+            <a href="{% url 'home' %}">
+              <i class="fa-solid fa-circle-left"></i>
+      
+          </a>
+          
+          </div>
+          <div class="home-back" dir="rtl">
+            <a href="{% url 'home' %}">
+              <i class="fa-solid fa-house"></i>
+        
+          </a>
+          </div>
+    <section class="lern-game" dir="rtl">
+          
+        <h2> لعبة ميكس </h2>
+        
+        <h3> نبذة عن اللعبة: </h3>
+        <p>    هي لعبة من أنواع العاب الذكاء تساعد علي نشاط العقل , تعتمد علي الأرقام .
+            خطوات اللعبة.
+                </p>
+        
+        <ol dir="rtl">
+            <li>	قم بتخمين اي رقم من ارقام الجدول في راسك وعدم الإفصاح عنة حتي نهاية اللعبة </li>
+            <li> 	قم بتحديد الرقم الذي خمنتة في مربعات الارقام وعدم الإفصاح عنة , و
+                 ان وجد اضغط علي المربع أن لايوجد لاتضغط علية وعليك المرور 
+                 علي كل المربعات واحد تلو الاخر</li>
+            <li> 	بعد انتهاك من تحديد مربعات التي توجد فية الرقم الذي خمنتة قم بالضغط علي كلمة(guess)</li>
+            <li> 	سوف يظهر رقمك الذي خمنتة </li>
+        </ol> 
+    
+    </section>
+</body>
+</html>

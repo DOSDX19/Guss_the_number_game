@@ -1,1 +1,1 @@
-web: gunicorn NunberGussing.wsgi 
+web: gunicorn NumberGussing.wsgi 

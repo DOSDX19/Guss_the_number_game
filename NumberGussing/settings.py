@@ -33,14 +33,13 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = (os.environ.get('DEBUG_VALUE') == 'True')
 
-ALLOWED_HOSTS = ['number-gussing.herokuapp.com']
+ALLOWED_HOSTS = ['mix-game.herokuapp.com']
 
 
 # Application definition
 
 INSTALLED_APPS = [
     'game',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -50,6 +49,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',

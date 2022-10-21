@@ -6,7 +6,7 @@
 }
 body{
 
-background-image:url(../image/Preview\ and\ Download\ Wallpaper\ -\ HD\ Wallpapers\ -\ Desktop\ Background\ Images.png);
+/* background-image:url(../image/Preview\ and\ Download\ Wallpaper\ -\ HD\ Wallpapers\ -\ Desktop\ Background\ Images.png); */
 background-size: cover ;
 font-family: sans-serif;
 
@@ -340,7 +340,7 @@ margin: 5%;
     }
     body{
 
-        background-image: url(../image/Preview\ and\ Download\ Wallpaper\ -\ HD\ Wallpapers\ -\ Desktop\ Background\ Images.png);
+        /* background-image: url(../image/Preview\ and\ Download\ Wallpaper\ -\ HD\ Wallpapers\ -\ Desktop\ Background\ Images.png); */
         background-size: cover;
         
         height: -9vh;

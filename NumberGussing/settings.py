@@ -59,7 +59,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'NumberGussing.urls'
+ROOT_URLCONF = 'NumberGussing.urls' 
 
 TEMPLATES = [
     {
